@@ -120,4 +120,30 @@ git fetch --dry-run
 
 
 
+Es momento de unir nuestra ramas para eso utilizamos varios comandos
+
+Merge a branch into current branch
+Unir a una rama dentro de la rama que estamos 
+git merge <BRANCHNAME>
+
+Change the branch you're working on
+Cambiarse a la rama en que se quiera trabajar
+git checkout <BRANCHNAME>
+
+Delete a local branch
+Eliminar una rama en local 
+git branch -d <BRANCHNAME>
+
+Delete a remote branch
+Eliminar una rama en remoto
+git push <REMOTENAME> --delete <BRANCHNAME>
+
+
+Pull from a remote branch
+Halar desde remoto una rama 
+git pull <REMOTENAME> <BRANCHNAME>
+
+
+
+
 
