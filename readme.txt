@@ -24,7 +24,7 @@ To commit (aka save) the changes you've added with a short message describing th
 Para salvar los cambios y agregar un mensaje corto describiendo los cambios 
 <git commit -m "your commit message">
 
-Gregamos mas tips
+Agregamos mas tips
 
 Add remote connections
 adicionamos la conexion remota a github
@@ -46,9 +46,9 @@ Push changes
 Enpujar los cambios al servidor remoto
 git push <REMOTENAME> <BRANCH>
 
-algunos tips mas sobre agregar un repositorio clonar un repositorio poner otra direccion al fork del repositorio los fork son como ramas de los repositorio se pueden mover repositorio de otros usuarios 
+algunos tips mas sobre agregar un repositorio clonar un repositorio poner otra direccion al fork del repositorio los fork son como proyectos que ponemos en nuestras cuentas traidos desde otros repositorios de otros usuarios para hacer cambios utilizarlos o mejorarlos para el original.  
 
-para clonar un repositorio el coemndo es 
+para clonar un repositorio el comando es 
 git clone <urlDeGitHubDelRepositorio>
 
 
