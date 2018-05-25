@@ -46,4 +46,27 @@ Push changes
 Enpujar los cambios al servidor remoto
 git push <REMOTENAME> <BRANCH>
 
+algunos tips mas sobre agregar un repositorio clonar un repositorio poner otra direccion al fork del repositorio los fork son como ramas de los repositorio se pueden mover repositorio de otros usuarios 
+
+para clonar un repositorio el coemndo es 
+git clone <urlDeGitHubDelRepositorio>
+
+
+En los fork podemos poner la direccion del repositorio original de donde lo hemos traido con el comando 
+git remote add <nombreQueleDemos> <UrlDelRepositorioOriginal>
+
+Tips
+
+Add a remote
+adicionar direccion remota
+git remote add <REMOTENAME> <URL> 
+
+Change a remote URL 
+Cambiar la direccion remota 
+git remote set-url <REMOTENAME> <URL>
+
+
+View remote connections
+Ver las conexiones remotas que tienen nuestro proyecto
+git remote -v
 
