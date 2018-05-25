@@ -23,3 +23,27 @@ Adicionar todos los cambios de los archivos al commit
 To commit (aka save) the changes you've added with a short message describing the changes 
 Para salvar los cambios y agregar un mensaje corto describiendo los cambios 
 <git commit -m "your commit message">
+
+Gregamos mas tips
+
+Add remote connections
+adicionamos la conexion remota a github
+git remote add <REMOTENAME> <URL>
+
+Set a URL to a remote
+poner la direccion de  servidor remot 
+git remote set-url <REMOTENAME> <URL>
+
+Pull in changes
+traer los cambios desde el servidor remoto
+git pull <REMOTENAME> <BRANCHNAME>
+
+View remote addresses
+ver la direccion remota.
+git remote -v
+
+Push changes
+Enpujar los cambios al servidor remoto
+git push <REMOTENAME> <BRANCH>
+
+
