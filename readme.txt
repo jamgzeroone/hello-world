@@ -103,4 +103,21 @@ Verificar en que rama se esta trabajando
 git status
 
 
+Comando para traer datos desde el remoto al local 
+
+Check Git status
+verificar el estado del repositorio
+git status
+
+Pull in changes from a remote branch
+Halar los cambios desde la rama remota al local
+git pull <REMOTENAME> <REMOTEBRANCH> 
+
+See changes to the remote before you pull in 
+ver los cambios de remoto antes de bajarlos al local
+git fetch --dry-run
+
+
+
+
 
