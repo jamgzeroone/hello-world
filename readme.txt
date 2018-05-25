@@ -70,3 +70,37 @@ View remote connections
 Ver las conexiones remotas que tienen nuestro proyecto
 git remote -v
 
+
+
+
+
+Nuevos comentarios para crear ramas 
+
+You can create and switch to a branch in one line 
+Crear y pasarce a la nueva rama con una sola linea de comandos
+git checkout -b <BRANCHNAME> 
+
+
+Create a new branch 
+crear una nueva rama
+git branch <BRANCHNAME>
+
+Move onto a branch
+Moverce a una rama 
+git checkout <BRANCHNAME>
+
+List the branches 
+Listar las ramas del repositorio
+git branch
+
+
+Rename a branch you're currently on 
+renombrar la rama en que uno se encuentre
+git branch -m <NEWBRANCHNAME> 
+
+Verify what branch you're working on 
+Verificar en que rama se esta trabajando
+git status
+
+
+
